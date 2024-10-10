@@ -16,4 +16,5 @@ while spend < budget + salary:
     else:
         budget -= spend
         months += 1
+        
 print(f"Количество месяцев, которое можно протянуть без долгов: {months}")
